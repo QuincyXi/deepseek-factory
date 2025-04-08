@@ -114,6 +114,10 @@ CSS = r"""
     cursor: pointer;
 }
 
+footer {
+  visibility: hidden
+}
+
 .overlay-button:hover {
     background-color: #45a049;
 }
