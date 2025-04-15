@@ -15,9 +15,11 @@
 from .dataprocess import create_dataprocess_tab
 from .train import create_train_tab
 from .eval import create_eval_tab
+from .upload import create_upload_tab
 
 __all__ = [
     "create_dataprocess_tab",
     "create_train_tab",
     "create_eval_tab",
+    "create_upload_tab",
 ]
